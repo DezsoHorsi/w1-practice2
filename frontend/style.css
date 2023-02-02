@@ -1,0 +1,49 @@
+body {
+  background-color: cadetblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: yellow;
+  font-weight: 400;
+}
+
+div {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  width: 200px;
+  height: 200px;
+
+  padding-top: 8px;
+  padding-right: 80px;
+  padding-bottom: 120px;
+  padding-left: 40px;
+
+  border: 10px solid blue;
+  margin-top:5px;
+
+  margin-bottom: 100px;
+  margin-left: 10px;
+
+}
+/* csak a spanre vonatkozik a lila szín*/
+article > span {
+  color:blueviolet;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  width: 200px;
+  height: 200px;
+
+  padding-top: 8px;
+  padding-right: 80px;
+  padding-bottom: 120px;
+  padding-left: 40px;
+
+  border: 10px solid blue;
+  margin-top:5px;
+  
+  margin-bottom: 100px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
